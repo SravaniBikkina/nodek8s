@@ -1,6 +1,10 @@
+version: v2
+
 global:
   runner:
     os_image: ubuntu
+  variables:
+    - RACK_ENV=test
 
 tasks:
   build-docker-image:
