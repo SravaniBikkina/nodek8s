@@ -16,6 +16,6 @@ tasks:
       - checkout
       - commands:
           #Deploy to minikube cluster
-        - kubectl apply -f deployment.yaml
+        - kubectl apply -f pods.yaml
         - kubectl apply -f services.yaml
 
