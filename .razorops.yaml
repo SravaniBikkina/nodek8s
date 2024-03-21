@@ -15,7 +15,7 @@ tasks:
           dockerfile: Dockerfile
           context: .
  
-  deploy-to-kubernetes cluster:
+  deploy-to-kubernetes-cluster:
     steps:
       - checkout
       - commands:
