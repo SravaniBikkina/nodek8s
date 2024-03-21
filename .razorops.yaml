@@ -11,7 +11,7 @@ tasks:
     steps:
       - checkout
       - docker/build:
-          image: sravanibikkina/node
+          image: sravanibikkina/nodek8s
           dockerfile: Dockerfile
           context: .
  
