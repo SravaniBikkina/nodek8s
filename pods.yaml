@@ -9,4 +9,4 @@ spec:
     - name: nodeak8s
       image: sravanibikkina/nodek8s:latest
       ports:
-	    - containerPort: 8081
+	    - containerPort: 8080
